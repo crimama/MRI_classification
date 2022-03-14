@@ -58,11 +58,11 @@
 
 **이미지 장수 통계** 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72ced1c6-f089-4402-9876-e9f9a2b0d072/Untitled.png)
+![image](https://user-images.githubusercontent.com/92499881/158146941-8a25f1ae-0199-4e91-bb8e-8c5e5f5f3d53.png)
 
 **이미지 장수 통계** 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c8058d63-ab95-4ab9-8834-f57ec857eecb/Untitled.png)
+![image](https://user-images.githubusercontent.com/92499881/158146913-eaa2e3f4-62f2-4e72-88f7-39cd45bbf4a6.png)
 
 ### 3. **속성 데이터**
 
@@ -82,7 +82,7 @@
 
 **컬럼 별 결측치 수** 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/063731bd-608a-47a3-a2f5-cea57f4a2d37/Untitled.png)
+![image](https://user-images.githubusercontent.com/92499881/158146873-67d458a6-ef28-455f-ab59-f9c903e2a54c.png)
 
 ## 3. 모델 설명
 
