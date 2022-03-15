@@ -1,4 +1,13 @@
 def make_df():
+  import os 
+  import pandas as pd 
+  import cv2 
+  import pandas as pd 
+  from glob import glob
+  from tqdm import tqdm
+  from init import init #초기 설정용 커스텀 패키지 
+  import numpy as np 
+  import matplotlib.pyplot as plt 
   columns = ['성명',
   '병록번호',
   '만나이',
