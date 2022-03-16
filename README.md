@@ -3,10 +3,7 @@
 - 19 채널 
 - Augmentation 
 
-## 1. 프로젝트 개요
-
-![image](https://user-images.githubusercontent.com/92499881/158146550-cc0c153f-9716-4366-bb8b-a19f04f299ec.png)
-
+## ㅇㅇ
 - **프로젝트 목적**
     - 환자의 Brain MRI 이미지와 나이, 교육년수 데이터들을 이용해 환자의 건강 상태 통계 score를 예측하는 모델 개발
 - **프로젝트 설명**
