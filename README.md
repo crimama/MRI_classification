@@ -2,8 +2,9 @@
 - 3 모델 앙상블
 - 19 채널 
 - Augmentation 
+![image](https://user-images.githubusercontent.com/92499881/158784451-1163393b-e98a-487a-b74a-551cb2abdc0f.png)
 
-## ㅇㅇ
+## 
 - **프로젝트 목적**
     - 환자의 Brain MRI 이미지와 나이, 교육년수 데이터들을 이용해 환자의 건강 상태 통계 score를 예측하는 모델 개발
 - **프로젝트 설명**
