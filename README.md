@@ -1,6 +1,6 @@
 ## 프로젝트 주요 특징 
 - 3 모델 앙상블 (Res50V2, VGG19, EfficientnetV2S)
-- image shape : 224,224,19 채널 
+- image shape : 256,256,19 채널 
 - Augmentation 
 - Binary Classification using Regression 
 ![image](https://user-images.githubusercontent.com/92499881/158784451-1163393b-e98a-487a-b74a-551cb2abdc0f.png)
