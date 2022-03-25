@@ -1,14 +1,14 @@
-## 프로젝트 주요 특징 
-- 3 모델 앙상블 (Res50V2, VGG19, EfficientnetV2S)
-- image shape : 256,256,19 채널 
-- Augmentation 
-- Binary Classification using Regression 
+## 프로젝트 설명 
 ![image](https://user-images.githubusercontent.com/92499881/158784451-1163393b-e98a-487a-b74a-551cb2abdc0f.png)
 
-## 
+
+- 레퍼런스 : (https://www.koreascience.or.kr/article/JAKO202123157304853.page)
+
+
+## 프로젝트 개요 
 - **프로젝트 목적**
     - 환자의 Brain MRI 이미지와 나이, 교육년수 데이터들을 이용해 환자의 건강 상태 통계 score를 예측하는 모델 개발
-- **프로젝트 설명**
+- **프로젝트 데이터**
     - Input 데이터 : 뇌 MRI 이미지, 만 나이, 교육 년수
     - output 데이터 : Recall_total_score_z, Delayed_recall_z, Recognition_score_z 등 총 12개의 z 스코어
     - z 스코어가 -1보다 작은 경우 하위 15%를 의미하므로 비정상으로 판단 하여 해당 기준으로 환자의 건강 상태 정상과 비정상을 분류
@@ -153,29 +153,3 @@
     
 
 ## 결과
-
-- 12개의 각 model.h5 파일
-- 각 train, test 별 loss, acc, f1-score
-- output 컬럼 별 loss, acc 그래프(train, test)
-- output 컬럼 total loss, acc 그래프
-- ROC, AUC,AUROC → output 컬럼별 그리고 total 1개
-
-각 모델에서 추출할 것 → 소프트 보팅 한 이후 걸로 진행 
-
-- loss, val_loss, regression_result, roc,auc,auroc
-- 각 모델 추출한 것들 모아서 최종 결과 레포트 진행
-
-### 필요한 것들
-
-**각 모델 별** 
-
-1. Train, valid loss 그래프
-2. Train, Valid, Test Regression Result 분포 그래프 
-3. Train, Valid, Test Score (ACC, Recall, Precision, F1-score) 
-4. ROC, AUC, AUROC 그래프 
-
-**통합** 
-
-1. loss 그래프 - Train, Valid 
-2. Score 비교 (Acc, Recall, Precision, F1 score) 
-3. ROC, AUC, AUROC 비교
