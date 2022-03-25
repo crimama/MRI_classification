@@ -2,9 +2,6 @@
 ![image](https://user-images.githubusercontent.com/92499881/158784451-1163393b-e98a-487a-b74a-551cb2abdc0f.png)
 
 
-- 레퍼런스 : (https://www.koreascience.or.kr/article/JAKO202123157304853.page)
-
-
 ## 프로젝트 개요 
 - **프로젝트 목적**
     - 환자의 Brain MRI 이미지와 나이, 교육년수 데이터들을 이용해 환자의 건강 상태 통계 score를 예측하는 모델 개발
@@ -12,6 +9,11 @@
     - Input 데이터 : 뇌 MRI 이미지, 만 나이, 교육 년수
     - output 데이터 : Recall_total_score_z, Delayed_recall_z, Recognition_score_z 등 총 12개의 z 스코어
     - z 스코어가 -1보다 작은 경우 하위 15%를 의미하므로 비정상으로 판단 하여 해당 기준으로 환자의 건강 상태 정상과 비정상을 분류
+- **분석 모델**
+   - Input shape로 Mri images : 256,256,19 / 환자 정보 - 나이, 교육 년수 사용 
+   - 256,256,19는 네트워크 내부에서 224,224,3 형태로 변형 되고 통해 Feature Extraction 진행 
+   - Pretrained model은 **es50V2, VGG19, EFFicientnetV2S를 사용하며 각각 통과한 후 앙상블 됨** 
+   - Regression을 통해 건강 수치를 예측하고 예측된 값을 기준으로 정상 비정상 분류 
 
 ## 2. 전처리
 
@@ -153,3 +155,6 @@
     
 
 ## 결과
+
+## 레퍼런스 
+- 레퍼런스 : (https://www.koreascience.or.kr/article/JAKO202123157304853.page)
